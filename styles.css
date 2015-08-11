@@ -1,0 +1,56 @@
+body {
+                padding: 0px;
+                border: 0px;
+                margin: 0px;
+            }
+            #mainContainer {
+               margin-left: auto; 
+                margin-right: auto; 
+                height:100%; 
+                width:100%;
+                text-align: center;
+                padding: 0px;
+                background-image: url('images/beers-bg.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            
+            #linkContainer {
+                padding-top: 50px;
+            }
+            
+            .link {
+                color: white; 
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 400; 
+                text-decoration: none;
+                text-align: center;
+                padding: 5px 5px 5px 5px;
+                border: 2px white solid;
+                border-radius: 0px;
+                transition-duration: 0.9s;
+            }
+            
+            .link:hover {
+                background-color: white;
+                color: black;
+                transition-duration: 0.9s;
+            }
+            
+            .logo {
+                height: 80px;
+            }
+            
+            .headerText {
+                color: white;
+                font-family: 'Open Sans', sans-serif;
+            }
+            
+            .topPad {
+                margin-top: 60px;
+            }
+.whiteText {
+    color: white;
+    font-family: 'Open Sans', sans-serif; 
+}
